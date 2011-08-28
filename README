@@ -1,0 +1,12 @@
+These kernel configs are the default kernels for the Tilaa Gentoo images. 
+Tilaa is a hosting provider that uses KVM for virtualization. For more info
+about them, please visit http://tilaa.nl.
+
+The kernel configs are very stripped and will only work on
+KVM virtualization (since these are the only drivers shipped). There's
+nothing specific in the config that ties them to Tilaa, so feel free to
+use them for your own setups. Furthermore, there isn't something that
+forces you to only use these for Gentoo as well, but I won't give you
+a guarantee that Ubuntu or some other flavor assumes other config choices. 
+
+They come in i686 and amd64 flavors.
